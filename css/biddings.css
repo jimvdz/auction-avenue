@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+h1 {
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-size: 3em;
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.product_images {
+    max-width: 60%;
+    margin: 50px auto;
+}

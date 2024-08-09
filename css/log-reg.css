@@ -1,0 +1,62 @@
+.log-reg {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    margin: 8%;
+    margin-right: 0;
+}
+
+.left h1 {
+    margin-bottom: 20px;
+}
+
+#sign-in {
+    margin: 20px 0;
+}
+
+.inputs {
+    width: 100%;
+    padding: 2.5% 1%;
+    font-size: 1em;
+    border-radius: 12px;
+    background-color: #C0C0C0;
+    box-shadow: 2.5px 2.5px black;
+}
+
+.right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin: 8% 0;
+}
+
+.logo {
+    max-width: 70%;
+}
+
+.tagline {
+    text-align: center;
+}
+
+.reg {
+    height: 100%;
+}
+
+.leftreg {
+    background-color: #545454;
+    width: none;
+    padding: 2.5% 1%;
+    font-size: 1em;
+    border-radius: 12px;
+    box-shadow: 2.5px 2.5px black;
+}

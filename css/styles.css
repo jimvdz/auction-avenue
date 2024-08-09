@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2D283E;
+}
+
+main {
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    color: #FFD464;
+    text-shadow: 2.5px 2.5px black;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    color: #FFD464;
+    text-shadow: 2.5px 2.5px black;
+}
+
+h3, a, .buttons {
+    font-family: "Roboto";
+    color: #FFD464;
+}
+
+p, label {
+    font-family: "Roboto";
+    font-size: 1.25em;
+    color: white;
+}
+
+a:hover {
+    color: #C0C0C0;
+}
+
+.buttons {
+    background-color: #2D283E;
+    border: 2px solid #FFD464;
+    border-radius: 12px;
+}
+
+.buttons:hover {
+    background-color: #FFD464;
+    color: #2D283E;
+    cursor: pointer;
+}
+
+.buttons {
+    padding: 0.5em 1em;
+    margin: 0 auto;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 20px;
+}
+
+
+/* ===NAv CSS== */
+nav {
+    display: flex;
+    padding: 0 40px;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    background-color: #FFD464;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav a {
+    color: #2D283E;
+    text-decoration: none;
+}
+
+.nav-left {
+    height: 70px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-right a {
+    height: 60px;
+}
+
+.nav-right img {
+    height: 60px;
+    border-radius: 50%;
+    outline: 5px solid #FFD464;
+    transition: outline 0.2s;
+}
+
+.nav-right img:hover {
+    outline: 5px solid #2D283E;
+}
+
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 20px 0;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+}
+
+nav li a {
+    padding: 20px 30px;
+}
+
+nav li:hover {
+    color: #FFD464;
+    background-color: #2D283E;
+}
+/* ===== */
+
+/* ===FOOTER=== */
+footer {
+    padding: 20px 40px;
+    background-color: #FFD464;
+}
+
+footer p {
+    color: #2D283E;
+}
+
+
+/* dito niyo lagay yung footer.css */
+#footer-logo img {
+    display: block;
+    width: 20%;
+    margin: auto auto;
+}
+
+#copyright, #project, #disclaimer{
+    text-align: center;
+}
+
+.names-right, .names-left{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em; 
+    padding: 0 25%;
+    font-family: "Roboto";
+}
+
+span{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.success {
+    background-color: lightgreen;
+    padding: 20px;
+    color: #2D283E;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.error {
+    background-color: lightpink;
+    padding: 20px;
+    color: #2D283E;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* MOBILE VIEWPORT */
+@media only screen and (max-width:600px){
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list li {
+    margin-bottom: 30px;
+}
+
+.previews, .preview-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#intro, #about-img, #contact-img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+}

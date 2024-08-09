@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 50px;
+}
+
+.user_suggestions {
+    margin: 50px;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+hr {
+    margin: 50px;
+    border-color: #FFD464;
+}
+
+hr:last-child {
+    display: none;
+}

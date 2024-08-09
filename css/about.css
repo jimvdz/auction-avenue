@@ -1,0 +1,32 @@
+main {
+    text-align: center;
+}
+
+.about-header {
+    padding: 50px 0 50px;    
+}
+
+#about-intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-intro p {
+    width: 80%;
+}
+
+#about-logo {
+    width: 80%;
+    margin: auto;
+}
+
+.about-details {
+    margin: auto;
+    width: 90%;
+}
+
+p.about-details {
+    margin: 30px AUTO 100px;
+}

@@ -1,0 +1,46 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 80vh;
+}
+
+/* #profile-left, #profile-right {
+    margin: 
+} */
+
+#profile-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profile-left img { 
+    margin: 30px auto;
+    width: 50%;
+}
+
+#profile-left p {
+    text-align: center;
+}
+
+#log-out {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#profile-right {
+    margin: 0 auto;
+}
+
+#profile-right h1 {
+    margin-bottom: 35px;
+}
+
+#profile-right p {
+    margin: 10px 0;
+}
+
+#buttona {
+    margin: 0 auto;
+}
